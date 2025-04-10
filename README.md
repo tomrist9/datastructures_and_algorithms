@@ -1,1 +1,1 @@
-# datastructures_and_algorithms
+# Datastructures and algorithms course
