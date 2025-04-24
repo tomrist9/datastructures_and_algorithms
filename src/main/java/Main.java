@@ -2,17 +2,25 @@ package main.java;
 
 public class Main {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6, 7};
-        logAllPairsOfArray(arr);
-    }
 
-    public static void logAllPairsOfArray(int[] arr) {
+        ListNode n1 = new ListNode(4);
+        ListNode n2 = new ListNode(2);
+        ListNode n3 = new ListNode(1);
+        ListNode n4 = new ListNode(3);
 
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr.length; j++) {
-                System.out.println(arr[i] + "," + arr[j]);
-            }
+        n1.next = n2;
+        n2.next = n3;
+        n3.next = n4;
+
+
+        Solution solution = new Solution();
+        ListNode sorted = solution.sortList(n1);
+
+
+        while (sorted != null) {
+            System.out.print(sorted.val + " ");
+            sorted = sorted.next;
         }
-
     }
+
 }
