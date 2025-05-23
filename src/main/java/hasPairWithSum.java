@@ -1,5 +1,8 @@
 package main.java;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class hasPairWithSum {
 
     //brute force solution
@@ -17,9 +20,17 @@ public class hasPairWithSum {
 
     public static boolean hasPairWithSumOptimized(int[] nums, int targetSum) {
 
+        Set<Integer> mySet = new HashSet<>();
+        for (int num : nums) {
+            if (mySet.contains(targetSum - num)) {
+                return true;
+            }
+            mySet.add(num);
+        }
+        return false;
     }
 
     public static void main(String[] args) {
-        System.out.println( hasPairWithSum( new int[]{1,2,3,4,6}, 10 ));
+        System.out.println(hasPairWithSumOptimized(new int[]{1, 2, 3, 4, 6}, 10));
     }
 }
