@@ -3,7 +3,7 @@ package main.java;
 import java.util.HashSet;
 import java.util.Set;
 
-public class hasPairWithSum {
+public class HasPairWithSum {
 
     //brute force solution
     public static boolean hasPairWithSum(int[] nums, int targetSum) {
