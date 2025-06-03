@@ -33,7 +33,7 @@ I’m actively learning through a Udemy course focused on DSA fundamentals and a
 
 ## 🧠 Learning Platform
 
-- [Udemy - DSA Course](https://www.udemy.com/) # Master the Coding Interview: Data Structures + Algorithms
+- [Udemy - DSA Course](https://www.udemy.com/) #Master the Coding Interview: Data Structures + Algorithms
 - LeetCode, HackerRank, GeeksforGeeks for extra practice
 
 ## 🚀 How to Use
