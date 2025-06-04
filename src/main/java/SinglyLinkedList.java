@@ -1,7 +1,5 @@
 package main.java;
 
-import org.w3c.dom.Node;
-
 public class SinglyLinkedList {
     Node head;
 
@@ -28,6 +26,13 @@ public class SinglyLinkedList {
             temp.next = newNode;
         }
 
+        public void prepend(int value) {
+            Node newNode = new Node(value);
+            newNode.next = head;
+            head = newNode;
+        }
+    }
+
         public void printList() {
             Node temp = head;
             while (temp != null) {
@@ -38,4 +43,4 @@ public class SinglyLinkedList {
         }
     }
 
-}
+
