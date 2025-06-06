@@ -1,18 +1,11 @@
 package main.java;
 
-import org.w3c.dom.Node;
+public class Node {
+    int value;
+    Node next;
 
-public  class LinkedList {
-
-
-    class Node {
-        public void insertAtIndex(int index, int value) {
-            Node newNode = new Node(value);
-
-            if (index == 0) {
-                newNode.next = head;
-
-            }
-        }
+    public Node(int value) {
+        this.value = value;
+        this.next = null;
     }
 }
