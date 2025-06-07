@@ -45,5 +45,44 @@ class DoublyLinkedList {
         }
         System.out.println("null");
     }
+
+    void prepend(int value) {
+        Node newNode = new Node(value);
+
+        if (head == null) {
+            head = newNode;
+            tail = newNode;
+        } else {
+            newNode.next = head;
+            head.prev = newNode;
+            head = newNode;
+        }
+    }
+
+    void insert(int index, int value) {
+        if (index == 0) {
+            prepend(value);
+            return;
+        }
+
+        Node current = head;
+        for (int i = 0; i < index - 1 && current != null; i++) {
+            current = current.next;
+        }
+
+        if (current == null || current.next == null) {
+            append(value);
+            return;
+        }
+
+        Node newNode = new Node(value);
+        Node nextNode = current.next;
+
+        current.next = newNode;
+        newNode.prev = current;
+
+        newNode.next = nextNode;
+        nextNode.prev = newNode;
+    }
 }
 
