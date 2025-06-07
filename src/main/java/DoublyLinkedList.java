@@ -84,5 +84,35 @@ class DoublyLinkedList {
         newNode.next = nextNode;
         nextNode.prev = newNode;
     }
-}
 
+    void remove(int index) {
+        if (head == null) return;
+
+        // Remove head
+        if (index == 0) {
+            head = head.next;
+            if (head != null) head.prev = null;
+            else tail = null; // list is now empty
+            return;
+        }
+
+        Node current = head;
+        for (int i = 0; i < index && current != null; i++) {
+            current = current.next;
+        }
+
+        if (current == null) return;
+
+        if (current.prev != null) {
+            current.prev.next = current.next;
+        }
+
+        if (current.next != null) {
+            current.next.prev = current.prev;
+        }
+
+        if (current == tail) {
+            tail = current.prev;
+        }
+    }
+}
