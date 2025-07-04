@@ -40,4 +40,4 @@ I’m actively learning through a Udemy course focused on DSA fundamentals and a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/tomrist9/datastructuresandalgorithms.git
+   git clone https://github.com/tomrist9/datastructures_and_algorithms.git
