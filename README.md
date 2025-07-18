@@ -1,40 +1,77 @@
-# Data Structures and Algorithms Journey 🚀
+# 📚 Data Structures and Algorithms Journey 🚀
 
-This repository is part of my personal journey to master **Data Structures and Algorithms (DSA)** through hands-on problem solving.
+Welcome to my personal repository for mastering **Data Structures and Algorithms (DSA)** using Java.  
+This repo contains my daily solutions to coding problems from platforms like **LeetCode**, as well as structured implementations of common algorithms and patterns.
 
-I’m actively learning through a Udemy course focused on DSA fundamentals and advanced techniques, and I reinforce each concept by solving coding problems on platforms like LeetCode. I push my solutions to this repository to track my progress and build a strong foundation for technical interviews and real-world problem solving.
+Each solution is written with **clean code principles**, proper naming, and explanatory comments.  
+My goal is to build a solid base for **technical interviews**, system thinking, and real-world software engineering.
 
-## 📚 Topics Covered
+---
 
-- Arrays and Strings
-- Linked Lists
-- Stacks and Queues
-- Recursion and Backtracking
-- Sorting and Searching Algorithms
-- Trees and Graphs
-- Hashing
-- Dynamic Programming
-- Greedy Algorithms
+## 📂 Topics Covered
 
-## 💡 What I’m Practicing
+- ✅ Arrays
+- ✅ Strings
+- ✅ Linked Lists
+- ✅ HashMaps & Sets
+- ✅ Recursion & Backtracking
+- ✅ Sorting & Searching
+- ✅ Binary Search
+- ✅ Stacks & Queues
+- ✅ Trees & Graphs
+- ✅ Dynamic Programming
+- ✅ Sliding Window & Two Pointers
+- ✅ Greedy Algorithms
 
-- Writing clean, efficient Java code
-- Understanding time and space complexity (Big-O)
-- Solving problems using multiple approaches
-- Practicing recursion, iteration, and optimizations
-- Building confidence in algorithmic thinking
+---
 
-## 🛠 Technologies
+## 🧠 What I’m Practicing
+
+- Writing clean and optimized Java code
+- Analyzing time & space complexity (Big-O)
+- Solving problems with multiple approaches
+- Using recursion, iteration, and dynamic programming
+- Building a growth-oriented interview mindset
+
+---
+
+## 🛠 Technologies Used
 
 - Java
 - IntelliJ IDEA
 - Git & GitHub
-- LeetCode (for problem-solving)
+- LeetCode, HackerRank, GeeksforGeeks
 
-## 🧠 Learning Platform
+---
 
-- [Udemy - DSA Course](https://www.udemy.com/) Master the Coding Interview: Data Structures + Algorithms
-- LeetCode, HackerRank, GeeksforGeeks for extra practice
+## 📈 Folder Structure
+
+```bash
+src/
+├── array/
+├── string/
+├── linkedlist/
+├── sort/
+├── binarysearch/
+├── hashmap/
+├── tree_graph/
+├── recursion/
+├── math/
+├── ...
+## 🧪 Sample Problem
+
+### [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+
+```java
+// Time: O(n), Space: O(1)
+public int maxProfit(int[] prices) {
+    int minPrice = Integer.MAX_VALUE, maxProfit = 0;
+    for (int price : prices) {
+        if (price < minPrice) minPrice = price;
+        else maxProfit = Math.max(maxProfit, price - minPrice);
+    }
+    return maxProfit;
+}
 
 ## 🚀 How to Use
 
