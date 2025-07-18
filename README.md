@@ -60,7 +60,7 @@ src/
 ├── ...
 
 
-### 🧪 Sample Problem
+## 🧪 Sample Problem
 
 #### [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
@@ -74,9 +74,12 @@ public int maxProfit(int[] prices) {
     }
     return maxProfit;
 }
+```
 
-##### 🚀 How to Use
+---
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/tomrist9/datastructures_and_algorithms.git
+## 🚀 How to Use
+
+```bash
+git clone https://github.com/tomrist9/datastructures_and_algorithms.git
+```
