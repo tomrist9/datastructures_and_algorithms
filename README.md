@@ -58,9 +58,11 @@ src/
 ├── recursion/
 ├── math/
 ├── ...
-## 🧪 Sample Problem
 
-### [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+
+### 🧪 Sample Problem
+
+#### [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 ```java
 // Time: O(n), Space: O(1)
@@ -73,7 +75,7 @@ public int maxProfit(int[] prices) {
     return maxProfit;
 }
 
-## 🚀 How to Use
+##### 🚀 How to Use
 
 1. Clone the repository:
    ```bash
