@@ -1,5 +1,7 @@
 package main.java;
 
+import main.java.linkedlist.ListNode;
+
 public class Solution {
     public ListNode sortList(ListNode head) {
         if (head == null || head.next == null) return head;
