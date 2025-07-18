@@ -6,24 +6,29 @@ public class AnagramCheckOptimized {
         if (s1.length() != s2.length()) {
             return false;
         }
+
         int[] charCount = new int[26];
 
+
         for (char c : s1.toCharArray()) {
-            if (Character.isLetter(c)) {
-                charCount[c - 'a']++;
-            }
+            int index = c - 'a';
+            charCount[index]++;
+
         }
+
         for (char c : s2.toCharArray()) {
-            if (Character.isLetter(c)) {
-                charCount[c - 'a']++;
-            }
+            int index = c - 'a';
+            charCount[index]--;
         }
-        for (int count : charCount) {
-            if (count != 0) {
+
+        for (int i = 0; i < charCount.length; i++) {
+            if (charCount[i] != 0) {
                 return false;
             }
         }
+
         return true;
     }
+
 
 }
