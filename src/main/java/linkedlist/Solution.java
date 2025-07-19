@@ -1,4 +1,4 @@
-package main.java;
+package main.java.linkedlist;
 
 import main.java.linkedlist.ListNode;
 
