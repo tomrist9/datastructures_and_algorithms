@@ -8,11 +8,21 @@ public class BracketValidator {
         for (char ch : input.toCharArray()) {
             if (ch == '(' || ch == '{' || ch == '[') {
                 stack.push(ch);
-            } else if (ch == ')' && stack.isEmpty() || ch == '}' && stack.isEmpty() || ch == ']' && stack.isEmpty()) {
-                return false;
+            } else if (ch == ')' || ch == '}' || ch == ']') {
+                if (stack.isEmpty()) return false;
+                char top = stack.pop();
+                if ((ch == ')' && top != '(') ||
+                        (ch == '}' && top != '{') ||
+                        (ch == ']' && top != '[')) {
+                    return false;
+                }
             }
         }
-        return true;
+        return stack.isEmpty();
     }
 
+
+    public static void main(String[] args) {
+        System.out.println(balancedBrackets("()["));
+    }
 }
