@@ -5,7 +5,6 @@ public class SqrtX {
         if(x<2){
             return x;
         }
-
         int left = 1, right = x/2, ans =0;
 
         while(left<=right){
