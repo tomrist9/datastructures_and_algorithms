@@ -25,7 +25,7 @@ My goal is to build a solid base for **technical interviews**, system thinking, 
 
 ---
 
-## 🧠 What I’m Practicing
+##  What I’m Practicing
 
 - Writing clean and optimized Java code
 - Analyzing time & space complexity (Big-O)
