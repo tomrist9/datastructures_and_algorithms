@@ -35,7 +35,7 @@ My goal is to build a solid base for **technical interviews**, system thinking, 
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - Java
 - IntelliJ IDEA
@@ -81,7 +81,7 @@ public int maxProfit(int[] prices) {
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 ```bash
 git clone https://github.com/tomrist9/datastructures_and_algorithms.git
