@@ -1,4 +1,4 @@
-# 📚 Data Structures and Algorithms Journey 🚀
+# 📚 Data Structures and Algorithms Journey 
 
 Welcome to my personal repository for mastering **Data Structures and Algorithms (DSA)** using Java.  
 This repo contains my daily solutions to coding problems from platforms like **LeetCode**, as well as structured implementations of common algorithms and patterns.
@@ -25,7 +25,7 @@ My goal is to build a solid base for **technical interviews**, system thinking, 
 
 ---
 
-## 🧠 What I’m Practicing
+##  What I’m Practicing
 
 - Writing clean and optimized Java code
 - Analyzing time & space complexity (Big-O)
@@ -35,7 +35,7 @@ My goal is to build a solid base for **technical interviews**, system thinking, 
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - Java
 - IntelliJ IDEA
@@ -81,7 +81,7 @@ public int maxProfit(int[] prices) {
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 ```bash
 git clone https://github.com/tomrist9/datastructures_and_algorithms.git
