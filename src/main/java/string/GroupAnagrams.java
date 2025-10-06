@@ -9,13 +9,22 @@ import java.util.Map;
 public class GroupAnagrams {
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> map = new HashMap<>();
+
         for (String word : strs) {
-            char[] chars = word.toCharArray();
-            Arrays.sort(chars);
-            String sorted = new String(chars);
-            map.computeIfAbsent(sorted, k -> new ArrayList<>()).add(word);
+            int[] freq = new int[26];
+
+            for (char c : word.toCharArray()) {
+                freq[c - 'a']++;
+            }
+            String key = Arrays.toString(freq);
+
+            map.computeIfAbsent(key, k -> new ArrayList<>()).add(word);
 
         }
+
+
         return new ArrayList<>(map.values());
     }
+
+
 }
