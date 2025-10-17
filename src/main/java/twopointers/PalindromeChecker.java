@@ -1,4 +1,4 @@
-package main.java.string;
+package main.java.twopointers;
 
 public class PalindromeChecker {
 
