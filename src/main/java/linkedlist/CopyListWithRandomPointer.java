@@ -1,5 +1,8 @@
 package main.java.linkedlist;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class CopyListWithRandomPointer {
     class Node {
         int val;
@@ -15,37 +18,22 @@ public class CopyListWithRandomPointer {
 
     public Node copyRandomList(Node head) {
         if (head == null) return null;
-        //7->13->11
 
-        Node current = head;
-        while (current != null) {
-            Node copy = new Node(current.val);
-            copy.next = current.next;
-            current.next = copy;
-            current = copy.next;
+        Map<Node, Node> map = new HashMap<>();
+        Node curr = head;
+        while (curr != null) {
+            map.put(curr, new Node(curr.val));
+        }
+        curr = curr.next;
+
+        curr = head;
+        while (curr != null) {
+            map.get(curr).next = map.get(curr.next);
+            map.get(curr).random = map.get(curr.random);
+            curr = curr.next;
         }
 
-        current = head;
-        while (current != null) {
-            if (current.random != null) {
-                current.next.random = current.random.next;
-            }
-
-            current = current.next.next;
-        }
-        Node dummyHead = new Node(0);
-        Node copyList = dummyHead;
-        current = head;
-        while (current != null) {
-            Node copy = current.next;
-            copyList.next = copy;
-            copyList = copy;
-
-            current.next = copy.next;
-            current = current.next;
-        }
-
-        return dummyHead.next;
+        return map.get(head);
     }
 }
 
