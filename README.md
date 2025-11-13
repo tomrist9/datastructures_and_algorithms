@@ -10,18 +10,18 @@ My goal is to build a solid foundation for technical interviews, system thinking
 
 ## 📂 Topics Covered
 
-- ✅ Arrays
-- ✅ Strings
-- ✅ Linked Lists
-- ✅ HashMaps & Sets
-- ✅ Recursion & Backtracking
-- ✅ Sorting & Searching
-- ✅ Binary Search
-- ✅ Stacks & Queues
-- ✅ Trees & Graphs
-- ✅ Dynamic Programming
-- ✅ Sliding Window & Two Pointers
-- ✅ Greedy Algorithms
+-  Arrays
+-  Strings
+-  Linked Lists
+-  HashMaps & Sets
+-  Recursion & Backtracking
+-  Sorting & Searching
+-  Binary Search
+-  Stacks & Queues
+-  Trees & Graphs
+-  Dynamic Programming
+-  Sliding Window & Two Pointers
+-  Greedy Algorithms
 
 ---
 
