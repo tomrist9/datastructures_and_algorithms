@@ -8,7 +8,7 @@ My goal is to build a solid foundation for technical interviews, system thinking
 
 ---
 
-## 📂 Topics Covered
+##  Topics Covered
 
 -  Arrays
 -  Strings
