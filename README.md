@@ -44,7 +44,7 @@ My goal is to build a solid foundation for technical interviews, system thinking
 
 ---
 
-## 📈 Folder Structure
+##  Folder Structure
 
 ```bash
 src/
