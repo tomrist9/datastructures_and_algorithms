@@ -18,9 +18,9 @@ public class Subsets {
 
 
         for (int i = start; i < nums.length; i++) {
-            path.add(nums[i]);              // seç
-            backtrack(i + 1, nums, path);   // davam et
-            path.remove(path.size() - 1);   // geri qayıt (backtrack)
+            path.add(nums[i]);
+            backtrack(i + 1, nums, path);
+            path.remove(path.size() - 1);
         }
     }
 }
