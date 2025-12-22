@@ -13,10 +13,10 @@ public class Subsets {
     }
 
     private void backtrack(int start, int[] nums, List<Integer> path) {
-        // Hal-hazırkı kombinasiya nəticədir
+
         result.add(new ArrayList<>(path));
 
-        // Növbəti elementləri seç
+
         for (int i = start; i < nums.length; i++) {
             path.add(nums[i]);              // seç
             backtrack(i + 1, nums, path);   // davam et
