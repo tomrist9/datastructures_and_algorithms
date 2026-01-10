@@ -40,7 +40,7 @@ My goal is to build a solid foundation for technical interviews, system thinking
 - Java
 - IntelliJ IDEA
 - Git & GitHub
-- LeetCode, HackerRank, GeeksforGeeks
+- LeetCode, HackerRank, NeetCode
 
 ---
 
