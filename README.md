@@ -22,6 +22,7 @@ My goal is to build a solid foundation for technical interviews, system thinking
 -  Dynamic Programming
 -  Sliding Window & Two Pointers
 -  Greedy Algorithms
+-  Dijkstra algorithm
 
 ---
 
