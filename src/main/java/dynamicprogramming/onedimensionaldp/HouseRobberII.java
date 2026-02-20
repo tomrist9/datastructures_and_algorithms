@@ -1,6 +1,6 @@
 package main.java.dynamicprogramming.onedimensionaldp;
 
-public class HousseRobberII {
+public class HouseRobberII {
     public int rob(int[] nums) {
         if (nums.length == 1) return nums[0];
 
