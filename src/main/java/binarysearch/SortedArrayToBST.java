@@ -1,4 +1,4 @@
-package binarysearch;
+package main.java.binarysearch;
 
 import com.sun.source.tree.Tree;
 import main.java.binarysearch.TreeNode;
