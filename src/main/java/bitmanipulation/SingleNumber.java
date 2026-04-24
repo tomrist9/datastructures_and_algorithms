@@ -1,4 +1,4 @@
-package main.java.array;
+package main.java.bitmanipulation;
 
 public class SingleNumber {
     public int singleNumber(int[] nums) {
