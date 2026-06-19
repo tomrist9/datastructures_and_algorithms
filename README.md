@@ -1,4 +1,4 @@
-#  Data Structures and Algorithms Journey 
+#  Data Structures and Algorithms (DSA) 
 
 Welcome to my personal experience about  mastering **Data Structures and Algorithms (DSA)** using Java.  
 This repo contains my daily solutions to coding problems from platforms like **LeetCode** and structured implementations of common algorithms and patterns.
