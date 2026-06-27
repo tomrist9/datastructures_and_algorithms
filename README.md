@@ -1,7 +1,7 @@
 #  Data Structures and Algorithms (DSA) 
 
 Welcome to my personal experience about  mastering **Data Structures and Algorithms (DSA)** using Java.  
-This repo contains my daily solutions to coding problems from platforms like **LeetCode** and structured implementations of common algorithms and patterns.
+This repo contains my daily solutions to coding problems from platforms like **LeetCode**, **NeetCode** and structured implementations of common algorithms and patterns.
 
 Each solution is written with **clean code principles**, proper naming, and explanatory comments.  
 
