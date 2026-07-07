@@ -22,6 +22,7 @@ Each solution is written with **clean code principles**, proper naming, and expl
 -  Sliding Window & Two Pointers
 -  Greedy Algorithms
 -  Dijkstra algorithm
+-  Backtracking
 
 ---
 
