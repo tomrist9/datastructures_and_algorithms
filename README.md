@@ -41,7 +41,7 @@ Each solution is written with **clean code principles**, proper naming, and expl
 - Java
 - IntelliJ IDEA
 - Git & GitHub
-- LeetCode, HackerRank, NeetCode
+- LeetCode, NeetCode
 
 ---
 
